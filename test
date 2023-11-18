@@ -1,0 +1,33 @@
+list1=["Leather wallet",1100,18,1]
+list2=["umbrella",900,12,4]
+list3=["cigarette",200,28,3]
+list4=["honey",100,0,2]
+max_gst=maximum_gst(list1,list2,list3,list4)
+print(max_gst)
+
+
+
+def maximum_gst(list1,list2,list3,list4):
+    maxi=0
+for i in list1:
+	if list1[i]>list1[i+1] :
+		maxi=list1
+
+for i in list2:
+	if list2[i]>maxi:
+		maxi=list2[i]
+
+for i in list3:
+	if list3[i]>maxi:
+		maxi=list3[i]
+
+for i in list4:
+	if list4[i]>maxi:
+		maxi=list4[i]
+max_amount(list)
+return maxi
+
+def max_amount(list):
+	total=unit+unit*(gst/100)
+	return total
+
